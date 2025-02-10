@@ -52,7 +52,6 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 150%;
-    color: #FFF;
     /* font-weight: 600; */
     padding: 10px;
     margin-left: 100px;
@@ -368,6 +367,9 @@ body{
         margin: 5px;
     }
     .percentagebox{
+        flex-direction: column;
+    }
+    .percentagebox1{
         flex-direction: column;
     }
     .project{
