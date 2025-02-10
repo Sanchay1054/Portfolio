@@ -65,6 +65,10 @@ const Portfolio = () => {
                             React
                         </div>
                         <div className={styles.lang}>
+                            <img src={require('../Components/nodejs.png')} className={styles.langimg}/>
+                            Node js
+                        </div>
+                        <div className={styles.lang}>
                             <img src={require('../Components/express.png')} className={styles.langimg}/>
                             Express
                         </div>
