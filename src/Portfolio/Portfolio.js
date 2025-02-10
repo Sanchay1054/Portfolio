@@ -176,7 +176,7 @@ const Portfolio = () => {
             <div className={styles.projectbg}>
                 <div className={styles.header}>Projects</div>
                 <div className={styles.project}>
-                    <a href=""><img src={require('../Components/tomatix.png')} className={styles.projectimgleft} /> <i className="bi bi-box-arrow-right"></i></a>
+                    <img src={require('../Components/tomatix.png')} className={styles.projectimgleft} />
                     <div>
                     <div className={styles.projectt}><b>TOMATIX</b><br/><br/>The mobile application facilitates the dissemination of information and establishes an interface connecting growers, nurseries, producers, traders, and other stakeholders
                     </div>

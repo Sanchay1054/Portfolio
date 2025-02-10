@@ -354,6 +354,7 @@ body{
 @media(max-width: 678px){
     .profile{
         flex-direction: column;
+        width: 70vw;
     }
     .profilet{
         font-size: 120%;
