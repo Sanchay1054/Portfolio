@@ -12,7 +12,7 @@ const Portfolio = () => {
                 <div className={styles.profile}>
                     <div>
                     <div className={styles.img}>
-                        <img src={require('../Components/profile.png')} alt='Image' className={styles.image}/>
+                        <img src={require('../Components/Profile.jpg')} alt='Image' className={styles.image}/>
                     </div>
                     </div>
                     <div className={styles.profilet}>
@@ -206,7 +206,7 @@ const Portfolio = () => {
                 </div>
                 <div className={styles.col}>
                     <div>
-                    <div className={styles.projectt1}><b>CLASSICAL MUSIC COMPOSER</b><br/>This software can able to produce music with different instruments like <b>Violin, Flute, Strings and Piano</b>. The composer can just type the Swram and it will generate the music
+                    <div className={styles.projectt1}><b>CLASSICAL MUSIC COMPOSER</b><br/>This software can able to produce music with different instruments like <b>Violin, Flute, Strings and Piano</b>. The composer can just type the Swaram and it will generate the music. Classical songs like Mahaganapathim, Bantu Reeti Kolu can be easily written.
                     </div>
                     </div>
                     <img src={require('../Components/music.png')} className={styles.projectimgright} />
